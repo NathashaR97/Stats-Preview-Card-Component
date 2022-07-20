@@ -162,8 +162,9 @@
      .paragraph {
         margin-bottom: 30px;
      }
-
-     /* .des-content {
+        
+     /* USING GRID */
+     .des-content {
         grid-row: 1;
         grid-template-columns: repeat(2, 1fr);
      }
@@ -177,9 +178,10 @@
         grid-template-rows: auto;
         grid-template-columns: repeat(3, 1fr);
         
-    } */
-
-    .des-content {
+    }
+     
+     /* USING FLEX */
+     /* .des-content {
         width: 453px;
         
      }
@@ -192,7 +194,7 @@
         flex-direction: row;
         /* grid-template-columns: repeat(3, 1fr); */
         
-    }
+    } */
 
    
  }
